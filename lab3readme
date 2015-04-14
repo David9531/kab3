@@ -1,0 +1,32 @@
+Q1:
+主要分為lab3.h main.cpp lab3.cpp三個檔案
+lab3用來定義menber function有sort和add兩個function
+main.cpp是用來讀取file.in檔 並把資料儲存到array
+之後再用call by value的方式呼叫sort進行排列
+sort排列完後再呼叫add把最大的5個數字相加
+
+
+Q2:
+
+1000時:
+F24014041@2015cpp:~/lab3$ ./t
+sort(): 0 seconds
+v1/v2 are different.
+insertion_sort(): 0.01 seconds
+v1/v2 are the same.
+
+10000時:
+F24014041@2015cpp:~/lab3$ ./t
+sort(): 0 seconds
+v1/v2 are different.
+insertion_sort(): 1.28 seconds
+v1/v2 are the same.
+
+100000時:
+F24014041@2015cpp:~/lab3$ ./t
+sort(): 0.04 seconds
+v1/v2 are different.
+insertion_sort(): 128.19 seconds
+v1/v2 are the same.
+
+
